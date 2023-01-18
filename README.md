@@ -26,3 +26,6 @@
 # mfe-1 = Introdução ao Frontend e JavaScript assíncrono (primeiro topico abordado do modulo de front-end)
 # day1 = Ambient de desenvolvimento (tema abordado no primeiro dia do modulo de front-end)
 
+# Guide how i work with my branchs; 
+# Every day I create a branch named workbranch, and at the end of it I put the workday number.
+# Example, I'm developing semantic html - day 04 of introduction to html and css - I just do a sum with the number of the last section, 4 (Unix, Shell and Git) + 4 of introduction to html and css, in this case my workbranch will have a termination numbered in 4+4 = 8 = workbranch8
