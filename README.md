@@ -1,3 +1,6 @@
+# Tryber: Eriques Andrade
+# Github: jsa-eriques
+
 # Guide of how my files pattern works
 # Navigation Tips;
 
@@ -22,3 +25,4 @@
 # mfe = Modulo de Front-end
 # mfe-1 = Introdução ao Frontend e JavaScript assíncrono (primeiro topico abordado do modulo de front-end)
 # day1 = Ambient de desenvolvimento (tema abordado no primeiro dia do modulo de front-end)
+
