@@ -1,7 +1,7 @@
-// section one
+// // section one
 
-// let num1 = 100;
-// let num2 = 50;
+// let num15 = 100;
+// let num26 = 50;
 
 // let adicao = (num1 + num2);
 // console.log(adicao);
@@ -17,11 +17,11 @@
 // console.log(teste);
 // console.log("PQP");
 
-// section two
+// // section two
 
 
-// let num1 = 100;
-// let num2 = 50;
+// let num13 = 100;
+// let num23 = 50;
 // if (num1 > num2) {
 //     console.log("O primeiro numero é maior que o segundo!");
 // } else {
@@ -29,7 +29,7 @@
 // }
 
 
-// section three
+// // section three
 
 
 // let num1 = 25;
@@ -48,20 +48,20 @@
 // }
 
 
-// section four
+// // section four
 
-// let num1 = 0;
+// let num12 = 0;
 
-// if (num1 > 0){
+// if (num12 > 0){
 //     console.log("Positive");
-// }else if (num1 < 0) {
+// }else if (num12 < 0) {
 //     console.log("Negative");
 // }else {
 //     console.log("Zero");
 // }
 
 
-// section five
+// // section five
 
 // let l1 = 60;
 // let l2 = 60;
@@ -76,7 +76,7 @@
 // }
 
 
-// section six
+// // section six
 
 // let piecechess = 'biSpo'
 
@@ -104,7 +104,7 @@
 // };
     
 
-// section seven
+// // section seven
 
 
 // let nota = 101;
@@ -127,7 +127,7 @@
 // }
 
 
-// section eight
+// // section eight
 
 // const a = 5;
 // const b = 3;
@@ -135,7 +135,7 @@
 
 // let isEven = false;
 
-//Even
+// Even
 // if (( a % 2 === 0 || b % 2 === 0 || c % 2 === 0)){
 //     isEven = true;
 // }
@@ -144,15 +144,15 @@
 
 // let isOdd = false;
 
-//Odd
-// if (( a % 2 !=== 0 || b % 2 !=== 0 || c % 2 !=== 0)){
+// Odd
+// if (( a % 2 !== 0 || b % 2 !== 0 || c % 2 !== 0)){
 //     isOdd = true;
 // }
 
 // console.log(isOdd);
 
 
-//section nine
+// // section\ nine
 
 // const valorCusto = 199 * 1000;
 // const valorVenda = 590 * 1000;
@@ -168,7 +168,7 @@
 // console.log(lucro);
 
 
-//section teen
+// // section teen
 
 // const salarioBruto = 5000.00;
 // let aliquotaINSS;
@@ -199,16 +199,75 @@
 //     aliquotaIR = (salarioBaseIR * 0.275) - 636.13;
 // }
 
-// const salarioLiquido = salarioBaseIR - aliquotaIR;
-// console.log(salarioLiquido)
+// // const salarioLiquido = salarioBaseIR - aliquotaIR;
+// // console.log(salarioLiquido)
 
 
-//let valorINSS = salarioBruto * aliquotaINSS;
-//let valorIR = salarioBruto * aliquotaIR;
-//let salarioLiquido = salarioBruto - valorINSS - valorIR;
+// let valorINSS = salarioBruto * aliquotaINSS;
+// let valorIR = salarioBruto * aliquotaIR;
+// let salarioLiquido = salarioBruto - valorINSS - valorIR;
 // console.log(valorINSS)
 // console.log(valorIR)
 // console.log(salarioLiquido)
 
-// section twenty one
+// // section twenty one
 
+// // O fatorial é representado pelo sinal !
+// // 4! = 4 x 3 x 2 x 1 = 24\
+
+// // fatorial 10
+// // 10! = \\\\10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1 = 3628800;
+
+// let word = 'tryber';
+// let split = '';
+// for ( index = 0; index < word.length; index += 1) {
+//     split += word[word.length -1 - index];
+// }
+
+// console.log(split)
+
+
+
+// // const myName = 'Eriques';
+// // const birthCity = 'Gloria';
+// // let birthYear = 1995;
+// // console.log(myName, 
+// //     birthCity, 
+// //     birthYear)
+
+// // birthYear = 2030;
+// // console.log(birthYear)
+
+// // // birthCity = 'Trinidad';
+
+// // console.log(birthCity)
+
+
+
+// let wwe = 0;
+
+// console.log(wwe +=1) 
+
+
+// let patientId = 1;
+// let isEnrolled = true;
+// const patientInfo = {
+//   firstName: 'Ana',
+//   lastName: 'Santos',
+// };
+// const patientEmail = 'ana@email.com';
+
+// console.log(typeof patientId)
+
+
+const base = 5;
+const height = 8;
+const area = base * height;
+console.log(area)
+// const perimeter; 
+
+
+const text = 'Hon', nu2 = 'string', ag23 = 23;
+
+
+console.log(text,nu2, ag23)
