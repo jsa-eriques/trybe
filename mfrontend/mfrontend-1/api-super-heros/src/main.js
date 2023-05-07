@@ -16,12 +16,16 @@ button.addEventListener('click', (event) => {
     event.preventDefault();
   
     const id = randomId();
+    //requisição
     fetch(`${BASE_URL}/${id}`)
+    //então ... convertendo o resultado em json
         .then((result) => result.json())
+        //F
         .then((data) => {
             img.src = data.image.url;
             name.innerHTML = data.name;
         })
+        //se algum dos then/então falhar o catch retorna o erro
         .catch((error) => Swal.fire({
             title: 'Hero not found',
             text: error.message,

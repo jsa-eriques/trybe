@@ -15,3 +15,24 @@ const newEmployees = (callback) => {
 
 
 console.log(newEmployees(employeeGenerator))
+
+
+
+var list1 = [
+  { firstName: 'Daniel', lastName: 'J.', country: 'Aruba', continent: 'Americas', age: 42, language: 'JavaScript' },
+  { firstName: 'Kseniya', lastName: 'T.', country: 'Belarus', continent: 'Europe', age: 22, language: 'JavaScript' },
+  { firstName: 'Hanna', lastName: 'L.', country: 'Hungary', continent: 'Europe', age: 65, language: 'JavaScript' },
+];
+
+
+function isSameLanguage(list) {
+  return list.every((element) => element.language)
+}
+
+console.log(list1.language)
+
+
+function isSameLanguage(list) {
+  // thank you for checking out the Coding Meetup kata :)
+  return list.every(element => element.language === 'JavaScript') ;
+}
