@@ -5,6 +5,7 @@ import './App.css';
 class App extends Component {
   constructor(props){
     super(props);
+    console.log('Constructor')
     this.state = {
         characters: [],
     };
@@ -12,18 +13,20 @@ class App extends Component {
 
   fetchCharacters = async () => {
     const response = await fetch('https://rickandmortyapi.com/api/character')
-    console.log(response)
     const data = await response.json();
     this.setState({characters: data.results})
   }
 
   componentDidMount() {
+    console.log('componentDidMount')
     this.fetchCharacters();
   }
 
   render() {
+    console.log('render')
+    // this.fetchCharacters();
     const { characters } = this.state;
-    console.log(characters)
+    // console.log(characters)
     return (
       <div className="App">
         <h1>
