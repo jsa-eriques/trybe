@@ -48,7 +48,7 @@ class PersonDetails extends Component {
      if (loading) return <Loading />;
     return (
         <>
-        <PersonCard person={ this.getUserElements(person[0])}  />
+            <PersonCard person={ this.getUserElements(person[0])}  />
         </>
     )
   }
